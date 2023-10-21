@@ -52,11 +52,11 @@ The app defines the following APIs.
     
     POST /api/v1/coins
     
-    GET /api/v1/coins/{userId}
+    GET /api/v1/coins/{coinId}
     
-    PUT /api/v1/coins/{userId}
+    PUT /api/v1/coins/{coinId}
     
-    DELETE /api/v1/coins/{userId}
+    DELETE /api/v1/coins/{coinId}
 
 Example: execute a PUT command `http://localhost:8080/api/v1/coins/50.00` using the json content:
 
