@@ -1,0 +1,11 @@
+INSERT INTO coins (coin, amount) VALUES (100, 100);
+INSERT INTO coins (coin, amount) VALUES (50, 100);
+INSERT INTO coins (coin, amount) VALUES (20, 100);
+INSERT INTO coins (coin, amount) VALUES (1, 100);
+INSERT INTO coins (coin, amount) VALUES (2, 100);
+INSERT INTO coins (coin, amount) VALUES (5, 100);
+INSERT INTO coins (coin, amount) VALUES (10, 100);
+INSERT INTO coins (coin, amount) VALUES (0.25, 100);
+INSERT INTO coins (coin, amount) VALUES (0.10, 100);
+INSERT INTO coins (coin, amount) VALUES (0.05, 100);
+INSERT INTO coins (coin, amount) VALUES (0.01, 100);
