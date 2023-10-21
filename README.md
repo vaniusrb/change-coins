@@ -9,28 +9,27 @@ Example:
 Amount of bill/coin available
 
 ```
-U$ 50 | 10
-U$ 20 | 10
-U$ 10 | 10
-U$  5 |  0
-U$  1 | 20
+$50 | 10
+$20 | 10
+$10 | 10
+ $5 |  0
+ $1 | 20
 ```
-
-the best result is: 1 * U$ 50 + 10 * U$ 10
+To request a change to $60.00, the best result is: 1 * $50 + 10 * $10
 
 However, there is a major complexity.
 
 In the following condition of bill/coin available
 
 ```
-U$ 50 | 10
-U$ 20 | 10
-U$ 10 |  0
-U$  5 |  0
-U$  1 | 20
+$50 | 10
+$20 | 10
+$10 |  0
+ $5 |  0
+ $1 | 20
 ```
 
-the best result will be to avoid using US$50, with 3 * US $20
+to change $60, the best result will be to avoid using $50, with 3 * $20
 
 The algorithm uses a recursive function that tests an alternative path of possibility using the smaller coins.
 

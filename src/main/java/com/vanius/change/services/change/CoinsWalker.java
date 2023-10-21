@@ -6,7 +6,7 @@ import java.util.Optional;
 import com.vanius.change.model.Coin;
 
 /**
- * The type Coins Walker, to navigate thru a coin list.
+ * The type Coins Walker, to navigate through a coin list.
  */
 public class CoinsWalker {
     int index = 0;
