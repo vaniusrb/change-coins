@@ -1,21 +1,20 @@
 package com.vanius.change;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.util.Enumeration;
 import java.util.Properties;
-
 import javax.annotation.PostConstruct;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import com.vanius.change.model.Coin;
 import com.vanius.change.repository.CoinRepository;
 
+/**
+ * The type InitData, that initialize records if exists the file
+ * coins.properties.
+ */
 @Component
 public class InitData {
 
